@@ -1,0 +1,22 @@
+{
+  "name": "password-manager",
+  "version": "1.0.0",
+  "description": "Program to manage and keep your passwords secure.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "author": "Kamran Fekri",
+  "license": "ISC",
+  "dependencies": {
+    "aes256": "^1.0.4",
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.0",
+    "mongodb": "^3.1.13"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
